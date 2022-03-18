@@ -1,0 +1,22 @@
+package com.ct.training;
+
+public class Employee {
+
+	int empId;
+	String empName;
+	String empAddress;
+	public void init() {
+		empId=1;
+		empName="Shashi";
+		empAddress="Sangli";
+	}
+public void dispalyDate() {
+	System.out.println("Employee Details :");
+}
+
+public void setDate(int d,String m,int y) {
+         dd=d;
+         mm=m;
+         yyyy=y;
+}
+}

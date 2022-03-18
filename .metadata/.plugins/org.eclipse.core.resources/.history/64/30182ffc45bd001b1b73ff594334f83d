@@ -1,0 +1,15 @@
+package com.ct.training;
+
+public class Dateformat {
+	
+	int dd;
+	String mm;
+	int yyyy;
+	
+	public void init() {
+		dd=1;
+		mm="may";
+		yyyy=2021;
+	}
+
+}

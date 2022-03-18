@@ -1,0 +1,15 @@
+package com.ct.training;
+
+public class Hello_Word {
+	public static void main(String[] args) {
+		System.out.println("Welcome to java world");
+		
+	 Dateformat d1=new Dateformat() {
+		 d1.init();
+		 d1.dispalyDate();
+		 d1.setDate();
+	 }	
+	
+		}
+
+}

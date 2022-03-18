@@ -1,0 +1,20 @@
+package com.ct.training;
+
+class Employee1{
+int empId;
+String empName;
+String empAddress;
+public void init() {
+	empId=1;
+	empName="Shashi";
+	empAddress="Sangli";
+}
+public void dispalyDate() {
+System.out.println("/n Employee Details :"+"empId"+"/n empname"+"/n empAddress");
+}}
+
+public class Employee {
+
+	
+
+}

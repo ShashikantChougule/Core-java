@@ -1,0 +1,10 @@
+package com.ct.training;
+
+public class Dateformat {
+	
+	int dd;
+	String mm;
+	int yyyy;
+	
+
+}

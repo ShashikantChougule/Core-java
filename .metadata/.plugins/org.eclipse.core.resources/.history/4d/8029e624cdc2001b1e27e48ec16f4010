@@ -1,0 +1,41 @@
+package com.collection;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class UseList {
+	
+	public static void main(String[] args) {
+		
+		List list=new ArrayList();
+		list.add(100);
+		list.add(123);
+		list.add("Hello");
+		list.add(true);
+		
+		for(Object obj:list) {
+			if(obj instanceof Integer) {
+				Integer ival=(Integer) obj;
+				System.out.println("Integer values : "+ival);
+			}
+			if(obj instanceof String) {
+				String str=(String) obj;
+				System.out.println("String values : "+str);
+			}
+			if(obj instanceof Boolean) {
+				Boolean b=(Boolean) obj;
+				System.out.println("Boolean values : "+b);
+			}
+		}
+		
+		
+		List<Integer> intlist=new ArrayList<Integer>();
+		intlist.add(12);
+		intlist.add(34);
+		intlist.add(45);
+		intlist.add(34);
+		
+		System.out.println("List contains : "+intlist);
+	}
+
+}

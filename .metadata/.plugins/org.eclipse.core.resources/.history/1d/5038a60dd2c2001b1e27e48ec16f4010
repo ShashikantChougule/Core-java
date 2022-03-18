@@ -1,0 +1,20 @@
+package com.collection;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class UseSet {
+	public static void main(String[] args) {
+		
+		Set<String> nameSet=new HashSet<String>();
+		nameSet.add("Shashi");
+		nameSet.add("Vijay");
+		nameSet.add("SuJAY");
+		nameSet.add("Akshay");
+		nameSet.add("Shashi");
+		
+		
+		
+	}
+
+}

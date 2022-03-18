@@ -1,0 +1,23 @@
+package com.ct.training;
+
+public class Dateformat {
+	
+	int dd;
+	String mm;
+	int yyyy;
+	
+	public void init() {
+		dd=1;
+		mm="may";
+		yyyy=2021;
+	}
+public void dispalyDate() {
+	System.out.println("Date is: "+dd+"_"+mm+"_"+yyyy);
+}
+
+public void setDate(int d,String m,int y) {
+         dd=d;
+         mm=m;
+         yyyy=y;
+}
+}

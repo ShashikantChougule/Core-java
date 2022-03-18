@@ -1,0 +1,22 @@
+package com.collection;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class SortList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		List<Integer> intlist=new ArrayList<Integer>();
+		intlist.add(12);
+		intlist.add(20);
+		intlist.add(22);
+		intlist.add(120);
+		intlist.add(23);
+		
+
+	}
+
+}

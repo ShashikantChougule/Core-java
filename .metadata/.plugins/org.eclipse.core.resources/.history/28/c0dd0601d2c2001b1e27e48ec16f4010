@@ -1,0 +1,8 @@
+package com.collection;
+
+public class UseSet {
+	public static void main(String[] args) {
+		
+	}
+
+}

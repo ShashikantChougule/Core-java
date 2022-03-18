@@ -1,0 +1,15 @@
+package com.collection;
+
+public class Employee {
+	
+	private int eId;
+	String eName;
+	private double sal;
+	
+	public Employee() {
+		eId=101;
+		eName="Sam";
+		sal=5000;
+	}
+
+}

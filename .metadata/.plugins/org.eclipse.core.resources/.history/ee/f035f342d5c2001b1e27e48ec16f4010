@@ -1,0 +1,24 @@
+package com.collection;
+
+public class Employee {
+	
+	private int eId;
+	String eName;
+	private double sal;
+	
+	public Employee() {
+		eId=101;
+		eName="Sam";
+		sal=5000;
+	}
+
+	public Employee(int eId, String eName, double sal) {
+	
+		this.eId = eId;
+		this.eName = eName;
+		this.sal = sal;
+	}
+	
+	
+
+}
